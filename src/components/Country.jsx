@@ -1,7 +1,7 @@
 import React from "react";
 
 const Country = (props) => {
-  const { name, population, region, flag, flags } = props.country;
+  const { name, population, region, flags } = props.country;
   const handleAddCountry = props.handleAddCountry;
   return (
     <>
